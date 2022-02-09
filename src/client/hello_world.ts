@@ -54,6 +54,8 @@ import {
    * Path to the keypair of the deployed program.
    * This file is created when running `solana program deploy dist/program/helloworld.so`
    */
+
+  // TODO: Try to change keypar.json
   const PROGRAM_KEYPAIR_PATH = path.join(PROGRAM_PATH, 'helloworld-keypair.json');
   
   /**
