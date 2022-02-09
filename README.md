@@ -7,6 +7,12 @@
 
 # Hello world on Solana
 
+### Start local validator in separate tab
+
+```bash
+solana-test-validator
+```
+
 ### Install npm dependencies
 
 ```bash
@@ -14,6 +20,8 @@ npm install
 ```
 
 ### Build the on-chain program
+
+Go to /src/program/
 
 ```bash
 cargo build-bpf --bpf-out-dir=dist/program
@@ -26,6 +34,8 @@ solana program deploy dist/program/helloworld.so
 ```
 
 ### Run the JavaScript client
+
+Go to root directory WSoS-2022
 
 ```bash
 npm run start

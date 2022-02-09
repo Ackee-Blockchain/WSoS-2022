@@ -2,6 +2,7 @@
 [package]
 name = "helloworld"
 version = "0.0.1"
+edition = "2018"
 
 [features]
 no-entrypoint = []
